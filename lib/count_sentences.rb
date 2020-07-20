@@ -5,6 +5,7 @@ class String
   def sentence?
     if self.end_with?(".")
     else true
+      binding.pry
     end
   end
 
